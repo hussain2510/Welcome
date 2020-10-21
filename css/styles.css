@@ -1,0 +1,83 @@
+.middleCon{
+  background-color: #394867;
+  height:900px;
+  position:relative;
+}
+.topCon{
+  position:relative;
+}
+h1{
+  font-family: 'Sacramento',cursive;
+  text-align:center;
+  margin:0;
+}
+img{
+  width:100%;
+  height:100%;
+}
+.lowerCon{
+    width:30%;
+    line-height: 2;
+    margin:0 auto 0 auto;
+    font-family: cursive;
+}
+body{
+  margin:0;
+  background-color:#eeee;
+  text-align:center;
+}
+.sites{
+    position: absolute;
+    top:10px;
+    right:10px;
+    text-align:right;
+}
+.link{
+  margin:20px;
+  text-decoration: none;
+  color:#411f1f;
+  font-size:1rem;
+  font-family: 'Montserrat',sans-serif;
+}
+.heading{
+    position:absolute;
+    top:200px;
+    left:200px;
+    font-size:4rem;
+}
+.copyright{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1rem;
+}
+.btn {
+   -webkit-border-radius: 9px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;
+   color: #000000;
+  font-family: 'Montserrat',sans-serif;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 18px;
+   background-color: #411F1F;
+   text-decoration: none;
+   display: inline;
+   cursor: pointer;
+   text-align: center;
+   position:absolute;
+   top:350px;
+   left:330px;
+}
+
+.btn:hover {
+   border: solid #000000 1px;
+   background: #495871;
+   background-image: -webkit-linear-gradient(top, #495871, #343639);
+   background-image: -moz-linear-gradient(top, #495871, #343639);
+   background-image: -ms-linear-gradient(top, #495871, #343639);
+   background-image: -o-linear-gradient(top, #495871, #343639);
+   background-image: -webkit-gradient(to bottom, #495871, #343639);
+   -webkit-border-radius: 13px;
+   -moz-border-radius: 13px;
+   border-radius: 13px;
+   text-decoration: none;
+}
